@@ -13,3 +13,6 @@ class Client:
 
     def generate_full_key(self, partial_key):
         return pow(base=partial_key, exp=self.secret_num, mod=self.prime_p)
+
+    def get_secret_num(self):
+        return self.secret_num

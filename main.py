@@ -17,6 +17,10 @@ def main():
     print(client1)
     print(client2)
 
+    # Print secret number clients chose
+    print(f"{client1.name} chose {client1.get_secret_num()} as a secret number")
+    print(f"{client2.name} chose {client2.get_secret_num()} as a secret number")
+
     # Generate partial keys
     partial_key1 = client1.generate_partial_key()
     partial_key2 = client2.generate_partial_key()
