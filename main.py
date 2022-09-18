@@ -13,6 +13,10 @@ def main():
     client1 = Client("Jack", p, g, secret_num1)
     client2 = Client("Jill", p, g, secret_num2)
 
+    # Print clients
+    print(client1)
+    print(client2)
+
     # Generate partial keys
     partial_key1 = client1.generate_partial_key()
     partial_key2 = client2.generate_partial_key()
