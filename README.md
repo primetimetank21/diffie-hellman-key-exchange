@@ -13,6 +13,7 @@ No encryption has been implemented for a simple, straightforward answer to the q
 ## How to use
 - Clone this repository
 - Create a virtual environment (optional but recommended)
+    - optional but recommended: `python3 -m venv .venv && source .venv/bin/activate`
 - Run `make install`
     - This will install all of the dependencies in the `requirements.txt` file
 - Run the script with `python3 main.py`
